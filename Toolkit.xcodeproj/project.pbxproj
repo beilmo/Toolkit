@@ -8,8 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		6FE270F120793A7300CDA5F3 /* Toolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE270E720793A7300CDA5F3 /* Toolkit.framework */; };
-		6FE270F620793A7300CDA5F3 /* ToolkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE270F520793A7300CDA5F3 /* ToolkitTests.swift */; };
 		6FE270F820793A7300CDA5F3 /* Toolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE270EA20793A7300CDA5F3 /* Toolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FE2711D20794BAC00CDA5F3 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2711C20794BAC00CDA5F3 /* Initializable.swift */; };
+		6FE2711F20794D0C00CDA5F3 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2711E20794D0C00CDA5F3 /* Navigator.swift */; };
+		6FE27121207952F700CDA5F3 /* NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE27120207952F700CDA5F3 /* NavigationStack.swift */; };
+		6FE27123207A2F1800CDA5F3 /* StackNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE27122207A2F1800CDA5F3 /* StackNavigator.swift */; };
+		6FE27125207A317A00CDA5F3 /* InitializableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE27124207A317A00CDA5F3 /* InitializableTests.swift */; };
+		6FE27129207A336200CDA5F3 /* InitializableModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE27128207A336200CDA5F3 /* InitializableModels.swift */; };
+		6FE2712B207A410E00CDA5F3 /* StackNavigatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2712A207A410E00CDA5F3 /* StackNavigatorTests.swift */; };
+		6FE2712D207A415800CDA5F3 /* MockStackNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2712C207A415800CDA5F3 /* MockStackNavigator.swift */; };
+		6FE2712F207A443800CDA5F3 /* AnyNavigationStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2712E207A443800CDA5F3 /* AnyNavigationStackTests.swift */; };
+		6FE27133207BA72800CDA5F3 /* MockUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE27132207BA72800CDA5F3 /* MockUINavigationController.swift */; };
+		6FE27135207BB43800CDA5F3 /* MockNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE27134207BB43800CDA5F3 /* MockNavigationStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +37,19 @@
 		6FE270EA20793A7300CDA5F3 /* Toolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toolkit.h; sourceTree = "<group>"; };
 		6FE270EB20793A7300CDA5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FE270F020793A7300CDA5F3 /* ToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FE270F520793A7300CDA5F3 /* ToolkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolkitTests.swift; sourceTree = "<group>"; };
 		6FE270F720793A7300CDA5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE27104207946C200CDA5F3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6FE2711C20794BAC00CDA5F3 /* Initializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializable.swift; sourceTree = "<group>"; };
+		6FE2711E20794D0C00CDA5F3 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		6FE27120207952F700CDA5F3 /* NavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStack.swift; sourceTree = "<group>"; };
+		6FE27122207A2F1800CDA5F3 /* StackNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackNavigator.swift; sourceTree = "<group>"; };
+		6FE27124207A317A00CDA5F3 /* InitializableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializableTests.swift; sourceTree = "<group>"; };
+		6FE27128207A336200CDA5F3 /* InitializableModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializableModels.swift; sourceTree = "<group>"; };
+		6FE2712A207A410E00CDA5F3 /* StackNavigatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackNavigatorTests.swift; sourceTree = "<group>"; };
+		6FE2712C207A415800CDA5F3 /* MockStackNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStackNavigator.swift; sourceTree = "<group>"; };
+		6FE2712E207A443800CDA5F3 /* AnyNavigationStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyNavigationStackTests.swift; sourceTree = "<group>"; };
+		6FE27132207BA72800CDA5F3 /* MockUINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUINavigationController.swift; sourceTree = "<group>"; };
+		6FE27134207BB43800CDA5F3 /* MockNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNavigationStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +74,7 @@
 		6FE270DD20793A7300CDA5F3 = {
 			isa = PBXGroup;
 			children = (
+				6FE27104207946C200CDA5F3 /* LICENSE */,
 				6FE270E920793A7300CDA5F3 /* Toolkit */,
 				6FE270F420793A7300CDA5F3 /* ToolkitTests */,
 				6FE270E820793A7300CDA5F3 /* Products */,
@@ -73,6 +95,7 @@
 			children = (
 				6FE270EA20793A7300CDA5F3 /* Toolkit.h */,
 				6FE270EB20793A7300CDA5F3 /* Info.plist */,
+				6FE2711B20794B5E00CDA5F3 /* Sources */,
 			);
 			path = Toolkit;
 			sourceTree = "<group>";
@@ -80,10 +103,43 @@
 		6FE270F420793A7300CDA5F3 /* ToolkitTests */ = {
 			isa = PBXGroup;
 			children = (
-				6FE270F520793A7300CDA5F3 /* ToolkitTests.swift */,
 				6FE270F720793A7300CDA5F3 /* Info.plist */,
+				6FE27126207A318300CDA5F3 /* Sources */,
 			);
 			path = ToolkitTests;
+			sourceTree = "<group>";
+		};
+		6FE2711B20794B5E00CDA5F3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6FE2711C20794BAC00CDA5F3 /* Initializable.swift */,
+				6FE2711E20794D0C00CDA5F3 /* Navigator.swift */,
+				6FE27120207952F700CDA5F3 /* NavigationStack.swift */,
+				6FE27122207A2F1800CDA5F3 /* StackNavigator.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6FE27126207A318300CDA5F3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6FE27127207A334500CDA5F3 /* Utils */,
+				6FE27124207A317A00CDA5F3 /* InitializableTests.swift */,
+				6FE2712E207A443800CDA5F3 /* AnyNavigationStackTests.swift */,
+				6FE2712A207A410E00CDA5F3 /* StackNavigatorTests.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6FE27127207A334500CDA5F3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6FE27128207A336200CDA5F3 /* InitializableModels.swift */,
+				6FE27132207BA72800CDA5F3 /* MockUINavigationController.swift */,
+				6FE27134207BB43800CDA5F3 /* MockNavigationStack.swift */,
+				6FE2712C207A415800CDA5F3 /* MockStackNavigator.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +200,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = beilmo;
+				ORGANIZATIONNAME = Beilmo;
 				TargetAttributes = {
 					6FE270E620793A7300CDA5F3 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					6FE270EF20793A7300CDA5F3 = {
 						CreatedOnToolsVersion = 9.3;
@@ -194,6 +251,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE27123207A2F1800CDA5F3 /* StackNavigator.swift in Sources */,
+				6FE2711D20794BAC00CDA5F3 /* Initializable.swift in Sources */,
+				6FE27121207952F700CDA5F3 /* NavigationStack.swift in Sources */,
+				6FE2711F20794D0C00CDA5F3 /* Navigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +262,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE270F620793A7300CDA5F3 /* ToolkitTests.swift in Sources */,
+				6FE27135207BB43800CDA5F3 /* MockNavigationStack.swift in Sources */,
+				6FE2712D207A415800CDA5F3 /* MockStackNavigator.swift in Sources */,
+				6FE2712F207A443800CDA5F3 /* AnyNavigationStackTests.swift in Sources */,
+				6FE27133207BA72800CDA5F3 /* MockUINavigationController.swift in Sources */,
+				6FE2712B207A410E00CDA5F3 /* StackNavigatorTests.swift in Sources */,
+				6FE27125207A317A00CDA5F3 /* InitializableTests.swift in Sources */,
+				6FE27129207A336200CDA5F3 /* InitializableModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +406,7 @@
 		6FE270FC20793A7300CDA5F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -355,6 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.beilmo.dt.Toolkit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +432,7 @@
 		6FE270FD20793A7300CDA5F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -387,6 +457,7 @@
 		6FE270FF20793A7300CDA5F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ToolkitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +475,7 @@
 		6FE2710020793A7300CDA5F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ToolkitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
